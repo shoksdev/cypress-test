@@ -1,0 +1,11 @@
+{
+  "url": "https://dev.profteam.su/registration",
+  "username": "shoksdev",
+  "usernameNegative": "shoks dev",
+  "email": "shoksdev@gmail.com",
+  "emailNegative": "shoksdevgmail.com",
+  "password": "QWEasd_123",
+  "passwordNegative": "QWEasd 123",
+  "passwordNegativeRepeat": "QWEasd 123",
+  "passwordNegativeNotRepeat": "QWEasd1234"
+}

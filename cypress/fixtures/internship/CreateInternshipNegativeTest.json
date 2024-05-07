@@ -1,0 +1,12 @@
+{
+  "url": "https://dev.profteam.su/login",
+  "login": "testerEmployer",
+  "password": "Password1",
+  "startDate": "2024-05-07",
+  "finishDate": "2024-05-10",
+  "startDateNegative": "2024-05-05",
+  "finishDateNegative": "2024-05-04",
+  "titleNegative": "*1289379фоцвдл*",
+  "requirements": "Быть крутым",
+  "duties": "Делать все вокруг крутым"
+}
