@@ -1,6 +1,6 @@
 describe('Cypress Tests', () => {
     it('Authentication Positive Test', () => {
-        cy.fixture('authentication/authenticationPositiveTest').then(data => {
+        cy.fixture('authentication/AuthenticationPositiveTest').then(data => {
             cy.log('Open Authentication Page')
             cy.visit(data.url)
 

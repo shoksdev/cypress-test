@@ -1,6 +1,6 @@
 describe('Cypress Tests', () => {
     it('Create Need Negative Test (Invalid Title)', () => {
-        cy.fixture('need/needNegativeTest').then(data => {
+        cy.fixture('need/CreateNeedNegativeTest').then(data => {
             cy.log('Open Authentication Page')
             cy.visit(data.url)
 

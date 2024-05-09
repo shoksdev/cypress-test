@@ -39,7 +39,7 @@ describe('Cypress Tests', () => {
         })
     })
     it('Create Internship Negative Test (Invalid Start and Finish Date)', () => {
-        cy.fixture('internship/internshipNegativeTest').then(data => {
+        cy.fixture('internship/CreateInternshipNegativeTest').then(data => {
             cy.log('Open Authentication Page')
             cy.visit(data.url)
 

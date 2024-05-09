@@ -1,6 +1,6 @@
 describe('Cypress Tests', () => {
     it('Authentication Negative Test (Invalid Password)', () => {
-        cy.fixture('authentication/authenticationNegativeTest').then(data => {
+        cy.fixture('authentication/AuthenticationNegativeTest').then(data => {
             cy.log('Open Authentication Page')
             cy.visit(data.url)
 

@@ -1,6 +1,6 @@
 describe('Cypress Tests', () => {
     it('Create Vacancy Negative Test (Invalid Title)', () => {
-        cy.fixture('vacancy/vacancyNegativeTest').then(data => {
+        cy.fixture('vacancy/CreateVacancyNegativeTest').then(data => {
             cy.log('Open Authentication Page')
             cy.visit(data.url)
 
@@ -34,7 +34,7 @@ describe('Cypress Tests', () => {
     })
 
     it('Create Vacancy Negative Test (Invalid Requirements)', () => {
-        cy.fixture('vacancy/vacancyNegativeTest').then(data => {
+        cy.fixture('vacancy/CreateVacancyNegativeTest').then(data => {
             cy.log('Open Authentication Page')
             cy.visit(data.url)
 

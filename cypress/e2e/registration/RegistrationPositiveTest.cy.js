@@ -1,6 +1,6 @@
 describe('Cypress Tests', () => {
     it('Registration Positive Test', () => {
-        cy.fixture('registration/registrationPositiveTest').then(data => {
+        cy.fixture('registration/RegistrationPositiveTest').then(data => {
             cy.log('Open Registration Page')
             cy.visit(data.url)
 

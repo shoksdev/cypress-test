@@ -1,6 +1,6 @@
 describe('Cypress Tests', () => {
     it('Registration Negative Test (Login failed validation)', () => {
-        cy.fixture('registration/registrationNegativeTest').then(data => {
+        cy.fixture('registration/RegistrationNegativeTest').then(data => {
             cy.log('Open Registration Page')
             cy.visit(data.url)
 
